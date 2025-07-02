@@ -1,0 +1,178 @@
+/* Background Gradient & base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  padding: 40px 20px;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Main container */
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #1e1e2f;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+/* Page title as button style */
+h1 {
+  background: #ff7e5f;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  padding: 18px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(255,126,95,0.6);
+  margin-bottom: 40px;
+  user-select: none;
+}
+
+/* Navigation styles */
+nav {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  background: #764ba2;
+  background: linear-gradient(45deg, #764ba2, #667eea);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(102,126,234,0.6);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav a:hover {
+  background: #ff7e5f;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  box-shadow: 0 6px 20px rgba(255,126,95,0.8);
+}
+
+/* Subheadings with button style */
+h2, h3 {
+  background: #ff7e5f;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 700;
+  box-shadow: 0 3px 6px rgba(255,126,95,0.5);
+  user-select: none;
+}
+
+/* Lists */
+ul {
+  list-style: inside disc;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  color: #ddd;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Error and success messages */
+p.error {
+  color: #ff6b6b;
+  font-weight: 600;
+  background: #33000044;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+p.success {
+  color: #74c69d;
+  font-weight: 600;
+  background: #1a3c1a88;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+/* Forms */
+form {
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: inset 0 0 6px #444;
+  background-color: #2b2b40;
+  color: #eee;
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+  box-shadow: 0 0 8px #ff7e5f;
+}
+
+/* Buttons */
+button {
+  background: #ff7e5f;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(255,126,95,0.7);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+}
+
+button:hover {
+  background: #feb47b;
+  box-shadow: 0 8px 25px rgba(255,180,140,0.9);
+}
+
+/* Loading state */
+.loading {
+  font-style: italic;
+  color: #aaa;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .App {
+    padding: 20px;
+  }
+  nav a {
+    display: block;
+    margin: 10px auto;
+    max-width: 200px;
+  }
+}
