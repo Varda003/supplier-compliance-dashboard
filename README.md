@@ -53,12 +53,13 @@ git clone https://github.com/Varda003/supplier-compliance-dashboard.git
 cd supplier-compliance-dashboard
 ```
 ### 2. Backend Setup (FastAPI)
-bash
+```bash
 Copy
 Edit
 cd backend
 pip install -r requirements.txt
 python main.py
+```
 Make sure to set up a .env file in /backend using .env.example as reference.
 
 ### 3. Frontend Setup (React)
