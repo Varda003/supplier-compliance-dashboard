@@ -3,6 +3,10 @@
 A full-stack web application to manage and monitor supplier compliance data using a clean, responsive frontend (React + Tailwind CSS) and a fast, scalable backend (FastAPI + SQLite).
 
 ---
+
+## 📊 Purpose:
+A web dashboard to manage and monitor supplier compliance records, allowing teams to upload data, view supplier details, and track compliance status.
+
 ## Here are some visuals to give you an idea of the project:
 
 ![UI Design](assets/image1.png) <!-- Replace with the actual path -->
