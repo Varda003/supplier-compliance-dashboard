@@ -9,16 +9,20 @@ A web dashboard to manage and monitor supplier compliance records, allowing team
 
 ## Here are some visuals to give you an idea of the project:
 
-![UI Design](assets/image1.png) <!-- Replace with the actual path -->
-*Figure 2: User Interface Design.*
+![UI Design](assets/img1.png) <!-- Replace with the actual path -->
+*Figure 1: User Interface Design.*
 <br><br>
 <br><br>
-![Project Overview](assets/image2.png) <!-- Replace with the actual path -->
-*Figure 1: Overview of the project.*
+![Project Overview](assets/img2.png) <!-- Replace with the actual path -->
+*Figure 2: Shows Supplier Details*
 <br><br>
 <br><br>
-![Features Demo](assets/image4.png) <!-- Replace with the actual path -->
-*Figure 3: Features in action.*
+![Features Demo](assets/img3.png) <!-- Replace with the actual path -->
+*Figure 3: Updating Supplier Dashboard*
+<br><br>
+<br><br>
+![Features Demo](assets/img4.png) <!-- Replace with the actual path -->
+*Figure 4:AI Insights*
 <br><br>
 <br><br>
 
