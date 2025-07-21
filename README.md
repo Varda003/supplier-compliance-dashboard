@@ -54,8 +54,6 @@ cd supplier-compliance-dashboard
 ```
 ### 2. Backend Setup (FastAPI)
 ```bash
-Copy
-Edit
 cd backend
 pip install -r requirements.txt
 python main.py
@@ -63,12 +61,11 @@ python main.py
 Make sure to set up a .env file in /backend using .env.example as reference.
 
 ### 3. Frontend Setup (React)
-bash
-Copy
-Edit
+``` bash
 cd ../frontend
 npm install
 npm start
+```
 Set up a .env file in /frontend using .env.example.
 
 ### 🧪 Sample .env.example Files
